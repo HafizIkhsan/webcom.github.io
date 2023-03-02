@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap");
+
+body {
+  font: 14px/18px raleway, sans-serif;
+}
+
+.profile {
+  margin-bottom: 159px;
+}
+
+img.foto-profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 80%;
+  margin-right: 16px;
+}
+
+a strong {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  color: black;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+}
+
+p.menu {
+  display: contents;
+}
+
+img.icon-nav {
+  width: 24px;
+  margin-right: 16px;
+}
+
+.navs-left {
+  padding: 32px;
+}
+
+.navs-menu {
+  margin-bottom: 16px;
+}
+
+.middle {
+  padding: 32px;
+}
+
+/* Carousel */
+
+.carousel {
+  width: 100%;
+}
+
+.carousel-indicators {
+  z-index: 99;
+  margin-right: 0;
+  right: 24px !important;
+  text-align: end;
+}
+
+.carousel-indicators button {
+  width: 12px !important;
+  height: 12px !important;
+  margin-right: 14px !important;
+  border-radius: 100%;
+}
+
+.carousel-item {
+  height: 400px;
+}
+
+.carousel-inner {
+  border-radius: 24px;
+}
+
+.category-button {
+  font: 12px raleway, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  border: 0;
+  padding: 6px 8px;
+  top: 24px;
+  right: 24px;
+  position: absolute;
+}
+
+.carousel .right-side {
+  padding: 16px;
+}
+
+.carousel .ongoing h5 {
+  font: 12px raleway, sans-serif;
+  font-weight: 700;
+  margin: 0px 0px 0px 4px;
+}
+
+.carousel .rate p {
+  margin-left: 8px;
+  font: 14px raleway, sans-serif;
+  font-weight: 700;
+}
+
+.circle {
+  display: inline-block;
+  border-radius: 24px;
+  width: 8px;
+  height: 8px;
+  background-color: #4de335;
+}
+
+.btn-manga {
+  background-color: #46deff;
+}
+
+.btn-manga:hover {
+  background-color: #2bc1e1 !important;
+}
+
+.btn-manhwa {
+  background-color: #f32f2f;
+}
+
+.btn-manhwa:hover {
+  background-color: #de1e1e !important;
+}
+
+.btn-manhua {
+  background-color: #4be532;
+}
+
+.btn-manhua:hover {
+  background-color: #2fcb16 !important;
+}
+
+.carousel-caption {
+  right: 24px;
+  left: 24px;
+  padding: 0px;
+}
+
+.gradient {
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  background-image: linear-gradient(to top, rgba(79, 79, 79, 1), rgba(79, 79, 79, 0));
+}
+
+.carousel h5 {
+  font: 32px raleway, sans-serif;
+  font-weight: 700;
+}
+
+.carousel p {
+  font: 14px raleway, sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: white;
+}
+
+.btn.category {
+  font: 8px raleway, sans-serif;
+}
+
+.card {
+  border: none;
+}
+
+.card-body {
+  padding: 0px;
+}
+
+.card-inside {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.category-button-sm {
+  font: 8px raleway, sans-serif;
+  color: white;
+  padding: 6px 8px 6px 8px;
+  border: none;
+  border-radius: 2px;
+}
+
+.fav {
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.fav h5 {
+  margin: 0;
+}
+
+.favorite img {
+  max-height: 237px;
+  border-radius: 16px;
+}
+
+.judul {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.judul h5 {
+  font: 14px raleway, sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.chapter {
+  padding: 0px 0px 0px 12px;
+}
+
+.chapter-isi {
+  margin-bottom: 8px;
+}
+
+.chapter-isi::marker {
+  color: #6865ff;
+}
+
+.chapter button {
+  background-color: #6865ff;
+  padding: 8px;
+  border-radius: 4px;
+  border: 0px;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+}
+
+.favorite p.update {
+  font-size: 10px;
+}
+
+.right-nav {
+  box-sizing: border-box;
+  padding: 32px;
+}
+
+.right-nav .card {
+  border-radius: 16px;
+}
+
+.right-nav .card-body {
+  position: relative;
+  padding: 16px 24px 16px 24px;
+}
+
+.right-nav a.btn {
+  position: absolute;
+  bottom: 16px;
+  right: 24px;
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.popular {
+  padding: 24px 32px 24px 32px;
+  background-color: #f8f8f8;
+  margin-top: 24px;
+  border-radius: 16px;
+}
+
+.popular li {
+  padding: 0;
+  background-color: #f8f8f8;
+  border: 0;
+  margin-bottom: 16px;
+}
+
+.popular li img {
+  border-radius: 8px;
+}
