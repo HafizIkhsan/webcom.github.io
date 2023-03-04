@@ -96,6 +96,11 @@ img.icon-nav {
   margin: 0px 0px 0px 4px;
 }
 
+.carousel .rate img {
+  width: 12px;
+  height: 12px;
+}
+
 .carousel .rate p {
   margin-left: 8px;
   font: 14px raleway, sans-serif;
@@ -165,6 +170,8 @@ img.icon-nav {
   font: 8px raleway, sans-serif;
 }
 
+/* Komik */
+
 .card {
   border: none;
 }
@@ -197,12 +204,18 @@ img.icon-nav {
   margin: 0;
 }
 
+.komik {
+  width: 180px;
+}
+
 .favorite img {
-  max-height: 237px;
+  max-height: 252px;
   border-radius: 16px;
 }
 
 .judul {
+  margin: auto;
+  max-width: 160px;
   height: 50px;
   display: flex;
   justify-content: center;
@@ -223,13 +236,15 @@ img.icon-nav {
   margin-bottom: 8px;
 }
 
-.chapter-isi::marker {
+li.chapter-isi::marker {
+  margin: 0;
   color: #6865ff;
 }
 
 .chapter button {
+  width: 90px;
   background-color: #6865ff;
-  padding: 8px;
+  padding: 6px;
   border-radius: 4px;
   border: 0px;
   font-size: 12px;
@@ -238,6 +253,8 @@ img.icon-nav {
 }
 
 .favorite p.update {
+  margin-top: auto;
+  margin-bottom: auto;
   font-size: 10px;
 }
 
