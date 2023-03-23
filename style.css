@@ -62,12 +62,13 @@ img.icon-nav {
   right: 24px;
   left: 24px;
   padding: 0px;
-  z-index: 0;
+  z-index: 1;
 }
 
 .carousel-indicators {
-  z-index: 1;
-  margin-right: 0;
+  display: inline;
+  z-index: 2;
+  margin-right: 0px;
   right: 24px !important;
   text-align: end;
 }
