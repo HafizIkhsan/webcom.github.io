@@ -8,46 +8,48 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container-fluid d-flex mt-3">
+    <div class="container-fluid d-flex position-relative">
       <!-- Left Navs -->
-      <div class="nav flex-column navs-left d-flex col-2">
-        <div class="d-inline-block profile">
-          <a href="#" class="nav-link active text-left d-inline-block">
-            <img src="assets/img/foto profile.jfif" alt="foto profile" class="foto-profile" />
-            <p class="menu"><strong>Hafiz</strong></p>
-          </a>
-        </div>
-        <div class="navs">
-          <div class="navs-menu">
-            <a href="#" class="nav-link active text-left"
-              ><img src="assets/icon/home.svg" alt="Home" class="icon-nav" />
-              <p class="menu">Home</p>
+      <div class="nav flex-column col-2 navs-left d-flex border-end">
+        <div class="position-fixed">
+          <div class="d-inline-block profile">
+            <a href="#" class="nav-link active text-left d-inline-block">
+              <img src="assets/img/foto profile.jfif" alt="foto profile" class="foto-profile" />
+              <p class="menu"><strong>Hafiz</strong></p>
             </a>
           </div>
-          <div class="navs-menu">
-            <a href="#" class="nav-link active text-left"
-              ><img src="assets/icon/calendar.svg" alt="" class="icon-nav" />
-              <p class="menu">Ongoing</p>
-            </a>
-          </div>
-          <div class="navs-menu">
-            <a href="#" class="nav-link active text-left"
-              ><img src="assets/icon/heart.svg" alt="" class="icon-nav" />
-              <p class="menu">Favorite</p>
-            </a>
-          </div>
-          <div class="navs-menu">
-            <a href="#" class="nav-link active text-left"
-              ><img src="assets/icon/Notification.svg" alt="" class="icon-nav" />
-              <p class="menu">Notification</p>
-            </a>
+          <div class="navs">
+            <div class="navs-menu">
+              <a href="#" class="nav-link active text-left"
+                ><img src="assets/icon/home.svg" alt="Home" class="icon-nav" />
+                <p class="menu">Home</p>
+              </a>
+            </div>
+            <div class="navs-menu">
+              <a href="#" class="nav-link active text-left"
+                ><img src="assets/icon/calendar.svg" alt="" class="icon-nav" />
+                <p class="menu">Ongoing</p>
+              </a>
+            </div>
+            <div class="navs-menu">
+              <a href="#" class="nav-link active text-left"
+                ><img src="assets/icon/heart.svg" alt="" class="icon-nav" />
+                <p class="menu">Favorite</p>
+              </a>
+            </div>
+            <div class="navs-menu">
+              <a href="#" class="nav-link active text-left"
+                ><img src="assets/icon/Notification.svg" alt="" class="icon-nav" />
+                <p class="menu">Notification</p>
+              </a>
+            </div>
           </div>
         </div>
       </div>
 
       <!-- Main -->
       <section class="main d-flex">
-        <div class="col-8 border-start border-end middle">
+        <div class="col-9 middle">
           <!-- Carousel -->
 
           <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
@@ -61,7 +63,7 @@
               <div class="carousel-item active">
                 <button type="button" class="btn btn-dark category-button btn-manga">MANGA</button>
                 <img src="assets/carousel/dandadan.jpeg" class="d-block w-100" alt="Dandadan" />
-                <div class="carousel-caption d-none d-md-block text-start" style="z-index: 2">
+                <div class="carousel-caption d-none d-md-block text-start">
                   <h5>Dandadan</h5>
 
                   <div class="text-middle d-flex justify-content-between">
@@ -98,7 +100,7 @@
               <div class="carousel-item">
                 <button type="button" class="btn btn-dark category-button btn-manga">MANGA</button>
                 <img src="assets/carousel/6912597.jpg" class="d-block w-100" alt="..." />
-                <div class="carousel-caption d-none d-md-block text-start" style="z-index: 2">
+                <div class="carousel-caption d-none d-md-block text-start">
                   <h5>8 Kaijuu</h5>
 
                   <div class="text-middle d-flex justify-content-between">
@@ -135,7 +137,7 @@
               <div class="carousel-item">
                 <button type="button" class="btn btn-dark category-button btn-manga">MANGA</button>
                 <img src="assets/carousel/sakamoto.jpg" class="d-block w-100" alt="..." />
-                <div class="carousel-caption d-none d-md-block text-start" style="z-index: 2">
+                <div class="carousel-caption d-none d-md-block text-start">
                   <h5>Sakamoto Days</h5>
 
                   <div class="text-middle d-flex justify-content-between">
@@ -170,7 +172,7 @@
               <div class="carousel-item">
                 <button type="button" class="btn btn-dark category-button btn-manhwa">MANHWA</button>
                 <img src="assets/carousel/solo-leveling.jpg" class="d-block w-100" alt="..." />
-                <div class="carousel-caption d-none d-md-block text-start" style="z-index: 2">
+                <div class="carousel-caption d-none d-md-block text-start">
                   <h5>Solo Leveling</h5>
 
                   <div class="text-middle d-flex justify-content-between">
@@ -289,14 +291,155 @@
                   </ul>
                 </div>
               </div>
+              <div class="komik card">
+                <img src="assets/komik/todag.jpg" class="d-block w-100 img-fluid" alt="" />
+                <div class="card-inside">
+                  <button class="category-button-sm btn-manhua">MANHUA</button>
+                </div>
+                <div class="card-body mt-2">
+                  <div class="judul">
+                    <h5>Tales of Demons and Gods</h5>
+                  </div>
+                  <ul class="chapter">
+                    <li class="chapter-isi">
+                      <div class="d-flex justify-content-between">
+                        <button>Chapter 373.5</button>
+                        <p class="update d-inline text-end">Apr 04, 2022</p>
+                      </div>
+                    </li>
+                    <li class="chapter-isi">
+                      <div class="d-flex justify-content-between">
+                        <button>Chapter 373</button>
+                        <p class="update d-inline text-end">Apr 02, 2022</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recently Update -->
+          <div class="favorite mt-4">
+            <div class="header-judul border-bottom fav justify-content-between">
+              <h5 style="font-size: 24px; font-weight: 700; line-height: 28px; letter-spacing: -0.02em" class="d-inline-block">Favorite</h5>
+              <img src="/assets/icon/arrow-right.svg" alt="" style="width: 24px; max-height: 24px" />
+            </div>
+
+            <div class="komik-favorite d-flex justify-content-between">
+              <div class="komik card">
+                <img src="assets/komik/one-piece-manga-volume-104.jpg" alt="one piece" />
+                <div class="card-inside">
+                  <button class="category-button-sm btn-manga">MANGA</button>
+                </div>
+                <div class="card-body mt-2">
+                  <div class="judul">
+                    <h5>One Piece</h5>
+                  </div>
+                  <ul class="chapter">
+                    <li class="chapter-isi">
+                      <div class="d-flex justify-content-between">
+                        <button>Chapter 1045</button>
+                        <p class="update d-inline text-end">8 hours ago</p>
+                      </div>
+                    </li>
+                    <li class="chapter-isi">
+                      <div class="d-flex justify-content-between">
+                        <button>Chapter 1044</button>
+                        <p class="update d-inline text-end">Apr 03, 2022</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="komik card">
+                <img src="assets/komik/chronicles-of-heavenly-demon-32714.webp" alt="" />
+                <div class="card-inside">
+                  <button class="category-button-sm btn-manhwa">MANHWA</button>
+                </div>
+                <div class="card-body mt-2">
+                  <div class="judul d-flex">
+                    <h5>Chronicles of Heavenly Demon</h5>
+                  </div>
+                  <ul class="chapter">
+                    <li class="chapter-isi">
+                      <div class="d-flex justify-content-between">
+                        <button>Chapter 169</button>
+                        <p class="update d-inline text-end">19 hours ago</p>
+                      </div>
+                    </li>
+                    <li class="chapter-isi">
+                      <div class="d-flex justify-content-between">
+                        <button>Chapter 168</button>
+                        <p class="update d-inline text-end">Mar 30, 2022</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="komik card">
+                <img src="assets/komik/todag.jpg" class="d-block w-100 img-fluid" alt="" />
+                <div class="card-inside">
+                  <button class="category-button-sm btn-manhua">MANHUA</button>
+                </div>
+                <div class="card-body mt-2">
+                  <div class="judul">
+                    <h5>Tales of Demons and Gods</h5>
+                  </div>
+                  <ul class="chapter">
+                    <li class="chapter-isi">
+                      <div class="d-flex justify-content-between">
+                        <button>Chapter 373.5</button>
+                        <p class="update d-inline text-end">Apr 04, 2022</p>
+                      </div>
+                    </li>
+                    <li class="chapter-isi">
+                      <div class="d-flex justify-content-between">
+                        <button>Chapter 373</button>
+                        <p class="update d-inline text-end">Apr 02, 2022</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="komik card">
+                <img src="assets/komik/todag.jpg" class="d-block w-100 img-fluid" alt="" />
+                <div class="card-inside">
+                  <button class="category-button-sm btn-manhua">MANHUA</button>
+                </div>
+                <div class="card-body mt-2">
+                  <div class="judul">
+                    <h5>Tales of Demons and Gods</h5>
+                  </div>
+                  <ul class="chapter">
+                    <li class="chapter-isi">
+                      <div class="d-flex justify-content-between">
+                        <button>Chapter 373.5</button>
+                        <p class="update d-inline text-end">Apr 04, 2022</p>
+                      </div>
+                    </li>
+                    <li class="chapter-isi">
+                      <div class="d-flex justify-content-between">
+                        <button>Chapter 373</button>
+                        <p class="update d-inline text-end">Apr 02, 2022</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
         <!-- Right Nav -->
-        <div class="right-nav col-4">
+        <div class="right-nav border-start col-3">
           <div>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Mau baca apa hari ini ?" />
+            <div class="search-box input-group flex-nowrap">
+              <div class="input-group-text">
+                <img class="align-content-center" src="assets/icon/search-normal.svg" alt="" />
+              </div>
+              <input type="text" class="form-control border-start-0" placeholder="What are you looking for?" aria-label="Username" aria-describedby="addon-wrapping" />
+            </div>
             <div class="continue-reading mt-3">
               <h5 style="font: 16px raleway, sans-serif; font-weight: 700">Continue Reading</h5>
               <div class="card shadow-sm" style="width: 100%">
@@ -318,40 +461,40 @@
               <h5 class="mb-3" style="font: 16px raleway, sans-serif; font-weight: 700">Popular these day</h5>
               <ol class="list-group list-group-numbered d-flex">
                 <li class="list-group-item d-flex justify-content-between align-items-center">
-                  <div class="ms-3 me-4">
-                    <img src="assets/popular/Reincarnation-of-the-Suicidal-Battle-God-.jpeg" alt="" style="width: 100px" />
+                  <div class="ms-3 me-3">
+                    <img src="assets/popular/Reincarnation-of-the-Suicidal-Battle-God-.jpeg" alt="" style="width: 80px" />
                   </div>
                   <div class="teks">
                     <a href="#" style="text-decoration: none; color: black">
-                      <div class="fw-bold judul mb-2">Reincarnation of the Suicidal Battle God</div>
+                      <div class="fw-bold judul-popular mb-2">Reincarnation of the Suicidal Battle God</div>
                       <p style="font: 12px raleway, sans-serif"><span style="color: #c1c1c1">Genres :</span> Fantasy, Overpowered, Rebirty, Shounen</p>
                     </a>
                   </div>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center">
-                  <div class="ms-3 me-4">
-                    <img src="assets/popular/return-of-the-mountain-hua-sect.jpg" alt="" style="width: 100px" />
+                  <div class="ms-3 me-3">
+                    <img src="assets/popular/return-of-the-mountain-hua-sect.jpg" alt="" style="width: 80px" />
                   </div>
                   <div class="teks">
                     <a href="#" style="text-decoration: none; color: black">
-                      <div class="fw-bold judul mb-2">Return of the Mount Hua Sect</div>
+                      <div class="fw-bold judul-popular mb-2">Return of the Mount Hua Sect</div>
                       <p style="font: 12px raleway, sans-serif"><span style="color: #c1c1c1">Genres :</span> Adventure, Comedy, Fantasy, Martial Arts, Rebirth</p>
                     </a>
                   </div>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center">
-                  <div class="ms-3 me-4">
-                    <img src="assets/popular/Return-Of-The-Disaster-Class-Hero-1-1.jpeg" alt="" style="width: 100px" />
+                  <div class="ms-3 me-3">
+                    <img src="assets/popular/Return-Of-The-Disaster-Class-Hero-1-1.jpeg" alt="" style="width: 80px" />
                   </div>
                   <div class="teks">
                     <a href="#" style="text-decoration: none; color: black">
-                      <div class="fw-bold judul mb-2">Return of the Disaster-Class Hero</div>
+                      <div class="fw-bold judul-popular mb-2">Return of the Disaster-Class Hero</div>
                       <p style="font: 12px raleway, sans-serif"><span style="color: #c1c1c1">Genres :</span> Action, Adventure, Fantasy, Magic, Returner, Shounen</p>
                     </a>
                   </div>
                 </li>
               </ol>
-              <a href="#" style="text-decoration: none"><p style="font-weight: 500; color: #6865ff">Show me more</p></a>
+              <a href="#" style="text-decoration: none"><p style="font-weight: 500; color: #6865ff; padding-top: 4px" class="mb-0">Show me more</p></a>
             </div>
           </div>
         </div>

@@ -36,11 +36,16 @@ img.icon-nav {
 }
 
 .navs-left {
-  padding: 32px;
+  box-sizing: border-box;
+  padding: 32px 16px 0px 16px;
 }
 
 .navs-menu {
   margin-bottom: 16px;
+}
+
+.navs-menu a {
+  padding: 8px 16px;
 }
 
 .middle {
@@ -53,8 +58,15 @@ img.icon-nav {
   width: 100%;
 }
 
+.carousel-caption {
+  right: 24px;
+  left: 24px;
+  padding: 0px;
+  z-index: 0;
+}
+
 .carousel-indicators {
-  z-index: 99;
+  z-index: 1;
   margin-right: 0;
   right: 24px !important;
   text-align: end;
@@ -107,6 +119,25 @@ img.icon-nav {
   font-weight: 700;
 }
 
+.carousel h5 {
+  font: 32px raleway, sans-serif;
+  font-weight: 700;
+}
+
+.carousel p {
+  font: 14px raleway, sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: white;
+}
+
+.btn.category {
+  font: 8px raleway, sans-serif;
+  position: relative;
+  z-index: 101;
+}
+
 .circle {
   display: inline-block;
   border-radius: 24px;
@@ -139,35 +170,12 @@ img.icon-nav {
   background-color: #2fcb16 !important;
 }
 
-.carousel-caption {
-  right: 24px;
-  left: 24px;
-  padding: 0px;
-}
-
 .gradient {
   bottom: 0;
   width: 100%;
   height: 50%;
   position: absolute;
   background-image: linear-gradient(to top, rgba(79, 79, 79, 1), rgba(79, 79, 79, 0));
-}
-
-.carousel h5 {
-  font: 32px raleway, sans-serif;
-  font-weight: 700;
-}
-
-.carousel p {
-  font: 14px raleway, sans-serif;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0.04em;
-  color: white;
-}
-
-.btn.category {
-  font: 8px raleway, sans-serif;
 }
 
 /* Komik */
@@ -260,7 +268,19 @@ li.chapter-isi::marker {
 
 .right-nav {
   box-sizing: border-box;
-  padding: 32px;
+  padding: 32px 16px 0px 16px;
+}
+
+.right-nav input {
+  font: 14px poppins, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  padding: 16px;
+}
+
+.right-nav div.input-group-text {
+  background-color: white;
+  padding-right: 0px;
 }
 
 .right-nav .card {
@@ -269,21 +289,21 @@ li.chapter-isi::marker {
 
 .right-nav .card-body {
   position: relative;
-  padding: 16px 24px 16px 24px;
+  padding: 16px 16px 16px 16px;
 }
 
 .right-nav a.btn {
   position: absolute;
-  bottom: 16px;
-  right: 24px;
-  font-size: 10px;
+  bottom: 24px;
+  right: 16px;
+  font-size: 8px;
   font-weight: 700;
   border-radius: 8px;
   padding: 10px;
 }
 
 .popular {
-  padding: 24px 32px 24px 32px;
+  padding: 24px 16px 24px 16px;
   background-color: #f8f8f8;
   margin-top: 24px;
   border-radius: 16px;
@@ -298,4 +318,12 @@ li.chapter-isi::marker {
 
 .popular li img {
   border-radius: 8px;
+}
+
+.popular .judul-popular {
+  font: 14px poppins, sans-serif;
+}
+
+.popular .teks p {
+  margin-bottom: 0px;
 }
