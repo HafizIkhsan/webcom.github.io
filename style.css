@@ -67,17 +67,29 @@ img.icon-nav {
 
 .carousel-indicators {
   display: inline;
+  position: absolute;
+  max-width: 200px;
   z-index: 2;
-  margin-right: 0px;
-  right: 24px !important;
-  text-align: end;
+  margin-left: 0px !important;
+  left: 83% !important;
+  margin-right: 0px !important;
 }
 
 .carousel-indicators button {
   width: 12px !important;
   height: 12px !important;
-  margin-right: 14px !important;
+  margin-right: 14px;
   border-radius: 100%;
+  border: 0px;
+  transition: opacity 1s ease-in 0.2s !important;
+}
+
+.carousel-indicators button[aria-current="true"] {
+  background-color: #6865ff;
+  width: 40px !important;
+  height: 12px;
+  border-radius: 16px;
+  border: 0px;
 }
 
 .carousel-item {
