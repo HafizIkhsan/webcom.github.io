@@ -8,6 +8,18 @@ body {
   margin-bottom: 159px;
 }
 
+.mobile-profile {
+  width: 24px;
+  height: 24px;
+  border-radius: 80%;
+}
+
+.mobile-notification {
+  width: 22px;
+  height: 22px;
+  border-radius: 80%;
+}
+
 img.foto-profile {
   width: 40px;
   height: 40px;
@@ -71,8 +83,8 @@ img.icon-nav {
   max-width: 200px;
   z-index: 2;
   margin-left: 0px !important;
-  left: 83% !important;
-  margin-right: 0px !important;
+  left: 83%;
+  margin-right: 0px;
 }
 
 .carousel-indicators button {

@@ -10,7 +10,7 @@
   <body>
     <div class="container-fluid d-flex position-relative">
       <!-- Left Navs -->
-      <div class="nav flex-column col-2 navs-left d-flex border-end">
+      <div class="nav flex-column d-none d-lg-flex col-2 navs-left d-flex border-end">
         <div class="position-fixed">
           <div class="d-inline-block profile">
             <a href="#" class="nav-link active text-left d-inline-block">
@@ -48,8 +48,22 @@
       </div>
 
       <!-- Main -->
-      <section class="main d-flex">
-        <div class="col-9 middle">
+      <section class="main d-flex w-100">
+        <div class="col-lg-9 col-md-8 col-sm-12 col-12 p-0 p-sm-4 pt-3 middle">
+          <!-- Phone -->
+          <div class="header-mobile d-flex d-sm-none justify-content-between mb-3 p-2">
+            <div class="profile-mobile">
+              <a href="">
+                <img src="assets/img/foto profile.jfif" alt="mobile-profile" class="mobile-profile" />
+              </a>
+            </div>
+            <div class="notification-mobile">
+              <a href="">
+                <img src="assets/icon/Notification.svg" alt="notification-mobile" class="mobile-notification" />
+              </a>
+            </div>
+          </div>
+
           <!-- Carousel -->
 
           <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
@@ -63,11 +77,11 @@
               <div class="carousel-item active">
                 <button type="button" class="btn btn-dark category-button btn-manga">MANGA</button>
                 <img src="assets/carousel/dandadan.jpeg" class="d-block w-100" alt="Dandadan" />
-                <div class="carousel-caption d-none d-md-block text-start">
+                <div class="carousel-caption text-start">
                   <h5>Dandadan</h5>
 
                   <div class="text-middle d-flex justify-content-between">
-                    <div class="left-side" style="width: 50%">
+                    <div class="left-side d-none d-md-block" style="width: 50%">
                       <p>After being aggressively rejected, Momo Ayase finds herself sulking when she stumbles across a boy being bullied.</p>
                     </div>
                     <div class="right-side d-flex align-items-end">
@@ -104,7 +118,7 @@
                   <h5>8 Kaijuu</h5>
 
                   <div class="text-middle d-flex justify-content-between">
-                    <div class="left-side" style="width: 50%">
+                    <div class="left-side d-none d-md-block" style="width: 50%">
                       <p>A man working a job far removed from his childhood dreams gets wrapped up in an unexpected situation…! Becoming a monster, he aims once again to fulfill his lifelong dream…!</p>
                     </div>
                     <div class="right-side d-flex align-items-end">
@@ -141,7 +155,7 @@
                   <h5>Sakamoto Days</h5>
 
                   <div class="text-middle d-flex justify-content-between">
-                    <div class="left-side" style="width: 50%">
+                    <div class="left-side d-none d-md-block" style="width: 50%">
                       <p>Taro Sakamoto was the ultimate assassin, feared by villains and admired by hitmen. But one day...he fell in love! Retirement, marriage, fatherhood and then...</p>
                     </div>
                     <div class="right-side d-flex align-items-end">
@@ -176,7 +190,7 @@
                   <h5>Solo Leveling</h5>
 
                   <div class="text-middle d-flex justify-content-between">
-                    <div class="left-side" style="width: 50%">
+                    <div class="left-side d-none d-md-block" style="width: 50%">
                       <p>Hunters, humans who possess magical abilities, must battle deadly monsters to protect the human race from certain annihilation.</p>
                     </div>
                     <div class="right-side d-flex align-items-end">
@@ -226,7 +240,7 @@
                   <div class="judul">
                     <h5>Blue Lock</h5>
                   </div>
-                  <ul class="chapter">
+                  <ul class="chapter d-none d-md-block">
                     <li class="chapter-isi">
                       <div class="d-flex justify-content-between">
                         <button>Chapter 211</button>
@@ -251,7 +265,7 @@
                   <div class="judul d-flex">
                     <h5>Chronicles of Heavenly Demon</h5>
                   </div>
-                  <ul class="chapter">
+                  <ul class="chapter d-none d-md-block">
                     <li class="chapter-isi">
                       <div class="d-flex justify-content-between">
                         <button>Chapter 169</button>
@@ -276,7 +290,7 @@
                   <div class="judul">
                     <h5>Tales of Demons and Gods</h5>
                   </div>
-                  <ul class="chapter">
+                  <ul class="chapter d-none d-md-block">
                     <li class="chapter-isi">
                       <div class="d-flex justify-content-between">
                         <button>Chapter 373.5</button>
@@ -292,7 +306,7 @@
                   </ul>
                 </div>
               </div>
-              <div class="komik card">
+              <div class="komik card d-none d-sm-block">
                 <img src="assets/komik/one-piece-manga-volume-104.jpg" alt="one piece" />
                 <div class="card-inside">
                   <button class="category-button-sm btn-manga">MANGA</button>
@@ -538,8 +552,8 @@
         </div>
 
         <!-- Right Nav -->
-        <div class="right-nav border-start col-3">
-          <div>
+        <div class="right-nav border-start d-none d-md-block col-lg-3 position-relative">
+          <div class="position-absolute">
             <!-- Search Bar -->
             <div class="search-box input-group flex-nowrap">
               <div class="input-group-text">
