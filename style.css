@@ -108,6 +108,10 @@ img.icon-nav {
   height: 400px;
 }
 
+.carousel-phone {
+  height: 200px;
+}
+
 .carousel-inner {
   border-radius: 24px;
 }
@@ -156,6 +160,81 @@ img.icon-nav {
   letter-spacing: 0.04em;
   color: white;
 }
+
+/* Carousel Phone */
+
+.carousel-phone .carousel-caption {
+  right: 24px;
+  left: 24px;
+  padding: 0px;
+  z-index: 1;
+}
+
+.carousel-indicators {
+  display: inline;
+  position: absolute;
+  max-width: 200px;
+  z-index: 2;
+  margin-left: 0px !important;
+  left: 83%;
+  margin-right: 0px;
+}
+
+.carousel-indicators button {
+  width: 12px !important;
+  height: 12px !important;
+  margin-right: 14px;
+  border-radius: 100%;
+  border: 0px;
+  transition: opacity 1s ease-in 0.2s !important;
+}
+
+.carousel-indicators button[aria-current="true"] {
+  background-color: #6865ff;
+  width: 40px !important;
+  height: 12px;
+  border-radius: 16px;
+  border: 0px;
+}
+
+.carousel-phone {
+  height: 200px;
+}
+
+.carousel-phone button {
+  font: 10px raleway, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  border: 0;
+  padding: 6px 8px;
+  top: 24px;
+  right: 24px;
+  position: absolute;
+}
+
+.carousel-phone button.category {
+  font: 8px raleway, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  border: 0;
+  padding: 6px 8px;
+  top: 0px;
+  right: 0px;
+  position: relative;
+}
+
+.carousel-phone .carousel-caption {
+  right: 8px;
+  left: 8px;
+  padding: 0px;
+  z-index: 1;
+}
+
+.carousel-phone .right-side {
+  padding: 4px;
+}
+
+/* Carousel Phone End */
 
 .btn.category {
   font: 8px raleway, sans-serif;
