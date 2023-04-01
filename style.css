@@ -9,8 +9,8 @@ body {
 }
 
 .mobile-profile {
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
   border-radius: 80%;
 }
 
@@ -170,14 +170,15 @@ img.icon-nav {
   z-index: 1;
 }
 
-.carousel-indicators {
+.carousel-indicators-phone.carousel-indicators {
   display: inline;
   position: absolute;
   max-width: 200px;
   z-index: 2;
   margin-left: 0px !important;
-  left: 83%;
+  left: 65%;
   margin-right: 0px;
+  margin-bottom: 12px;
 }
 
 .carousel-indicators button {
