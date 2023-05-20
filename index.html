@@ -374,15 +374,18 @@
           <div class="favorite mt-4 mb-4">
             <div class="header-judul border-bottom fav justify-content-between">
               <h5 style="font-size: 24px; font-weight: 700; line-height: 28px; letter-spacing: -0.02em" class="d-inline-block">Favorite</h5>
-              <img src="/assets/icon/arrow-right.svg" alt="" style="width: 24px; max-height: 24px" />
+              <img src="/assets/icon/arrowRight.svg" alt="" style="width: 24px; max-height: 24px" />
             </div>
 
             <div class="komik-favorite d-flex justify-content-between">
-              <div class="komik card me-md-0 me-2">
-                <img src="assets/komik/Agenda_Blue_Lock_2022-2023_pika.jpg" class="d-block w-100 img-fluid" alt="" />
-                <div class="card-inside">
-                  <button class="category-button-sm btn-manga">MANGA</button>
+              <div class="col-4 p-1 p-sm-0 col-sm ps-sm-3 pe-sm-3">
+                <div class="card">
+                  <img src="assets/komik/Agenda_Blue_Lock_2022-2023_pika.jpg" alt="" class="w-100 h-100" />
+                  <div class="card-inside">
+                    <button class="category-button-sm btn-manga">MANGA</button>
+                  </div>
                 </div>
+
                 <div class="card-body mt-2">
                   <div class="judul">
                     <h5>Blue Lock</h5>
@@ -403,11 +406,14 @@
                   </ul>
                 </div>
               </div>
-              <div class="komik card me-md-0 me-2">
-                <img src="assets/komik/chronicles-of-heavenly-demon-32714.webp" alt="" class="w-100" />
-                <div class="card-inside">
-                  <button class="category-button-sm btn-manhwa">MANHWA</button>
+              <div class="col-4 p-1 p-sm-0 col-sm ps-sm-3 pe-sm-3">
+                <div class="card">
+                  <img src="assets/komik/chronicles-of-heavenly-demon-32714.webp" alt="" class="w-100 h-100" />
+                  <div class="card-inside">
+                    <button class="category-button-sm btn-manhwa">MANHWA</button>
+                  </div>
                 </div>
+
                 <div class="card-body mt-2">
                   <div class="judul d-flex">
                     <h5>Chronicles of Heavenly Demon</h5>
@@ -428,11 +434,14 @@
                   </ul>
                 </div>
               </div>
-              <div class="komik card me-md-0 me-2">
-                <img src="assets/komik/todag.jpg" class="d-block w-100 img-fluid" alt="" />
-                <div class="card-inside">
-                  <button class="category-button-sm btn-manhua">MANHUA</button>
+              <div class="col-4 p-1 p-sm-0 col-sm ps-sm-3 pe-sm-3">
+                <div class="card">
+                  <img src="assets/komik/todag.jpg" alt="" class="w-100 h-100" />
+                  <div class="card-inside">
+                    <button class="category-button-sm btn-manhua">MANHUA</button>
+                  </div>
                 </div>
+
                 <div class="card-body mt-2">
                   <div class="judul">
                     <h5>Tales of Demons and Gods</h5>
@@ -453,11 +462,14 @@
                   </ul>
                 </div>
               </div>
-              <div class="komik card d-none d-sm-block">
-                <img src="assets/komik/Volume_105.webp" alt="one piece" class="w-100" />
-                <div class="card-inside">
-                  <button class="category-button-sm btn-manga">MANGA</button>
+              <div class="col-4 p-1 p-sm-0 col-sm ps-sm-3 pe-sm-3 d-none d-sm-block">
+                <div class="card">
+                  <img src="assets/komik/Volume_105.webp" alt="one piece" class="w-100 h-100" />
+                  <div class="card-inside">
+                    <button class="category-button-sm btn-manga">MANGA</button>
+                  </div>
                 </div>
+
                 <div class="card-body mt-2">
                   <div class="judul">
                     <h5>One Piece</h5>
@@ -485,7 +497,7 @@
           <div class="favorite mt-4">
             <div class="header-judul border-bottom fav justify-content-between">
               <h5 style="font-size: 24px; font-weight: 700; line-height: 28px; letter-spacing: -0.02em" class="d-inline-block">Recently Update</h5>
-              <img src="/assets/icon/arrow-right.svg" alt="" style="width: 24px; max-height: 24px" />
+              <img src="/assets/icon/arrowRight.svg" alt="" style="width: 24px; max-height: 24px" />
             </div>
 
             <!-- Column 1 -->
@@ -629,17 +641,20 @@
             </div>
 
             <!-- Column 2 -->
-            <div class="komik-recent d-flex justify-content-between">
-              <div class="komik card">
-                <img src="assets/komik/Solo_Leveling.jpg" alt="" />
-                <div class="card-inside">
-                  <button class="category-button-sm btn-manhwa">MANHWA</button>
+            <div class="komik-recent d-block d-md-flex justify-content-between">
+              <div class="d-flex d-sm-block col-sm ps-sm-3 pe-sm-3 mb-3">
+                <div class="card col-4 col-sm-12">
+                  <img src="assets/komik/Solo_Leveling.jpg" alt="" />
+                  <div class="card-inside">
+                    <button class="category-button-sm btn-manhwa">MANHWA</button>
+                  </div>
                 </div>
+
                 <div class="card-body mt-2">
-                  <div class="judul d-flex">
+                  <div class="judul justify-content-start justify-content-sm-center p-3">
                     <h5>Solo Leveling</h5>
                   </div>
-                  <ul class="chapter">
+                  <ul class="chapter ps-sm-3 ps-4">
                     <li class="chapter-isi">
                       <div class="d-flex justify-content-between">
                         <button>Chapter 190</button>
@@ -652,19 +667,28 @@
                         <p class="update d-inline text-end">Mar 15, 2023</p>
                       </div>
                     </li>
+                    <li class="chapter-isi d-sm-none">
+                      <div class="d-flex justify-content-between">
+                        <button>Chapter 189</button>
+                        <p class="update d-inline text-end">Mar 15, 2023</p>
+                      </div>
+                    </li>
                   </ul>
                 </div>
               </div>
-              <div class="komik card">
-                <img src="assets/komik/5884_20210630110025.png" class="d-block w-100 img-fluid" alt="" />
-                <div class="card-inside">
-                  <button class="category-button-sm btn-manhwa">MANHWA</button>
+              <div class="d-flex d-sm-block col-sm ps-sm-3 pe-sm-3 mb-3">
+                <div class="card col-4 col-sm-12">
+                  <img src="assets/komik/5884_20210630110025.png" class="d-block w-100 img-fluid" alt="" />
+                  <div class="card-inside">
+                    <button class="category-button-sm btn-manhwa">MANHWA</button>
+                  </div>
                 </div>
+
                 <div class="card-body mt-2">
-                  <div class="judul">
+                  <div class="judul justify-content-start justify-content-sm-center p-3">
                     <h5>Reincarnation of the Suicidal Battle God</h5>
                   </div>
-                  <ul class="chapter">
+                  <ul class="chapter ps-sm-3 ps-4">
                     <li class="chapter-isi">
                       <div class="d-flex justify-content-between">
                         <button>Chapter 69</button>
@@ -677,19 +701,28 @@
                         <p class="update d-inline text-end">Mar 14, 2023</p>
                       </div>
                     </li>
+                    <li class="chapter-isi d-sm-none">
+                      <div class="d-flex justify-content-between">
+                        <button>Chapter 68</button>
+                        <p class="update d-inline text-end">Mar 14, 2023</p>
+                      </div>
+                    </li>
                   </ul>
                 </div>
               </div>
-              <div class="komik card">
-                <img src="assets/komik/ROTSC.webp" class="d-block w-100 img-fluid" alt="" />
-                <div class="card-inside">
-                  <button class="category-button-sm btn-manhwa">MANHWA</button>
+              <div class="d-flex d-sm-block col-sm ps-sm-3 pe-sm-3 mb-3">
+                <div class="card col-4 col-sm-12">
+                  <img src="assets/komik/ROTSC.webp" class="d-block w-100 img-fluid" alt="" />
+                  <div class="card-inside">
+                    <button class="category-button-sm btn-manhwa">MANHWA</button>
+                  </div>
                 </div>
+
                 <div class="card-body mt-2">
-                  <div class="judul">
+                  <div class="judul justify-content-start justify-content-sm-center p-3">
                     <h5>Return of the Shattered Constellation</h5>
                   </div>
-                  <ul class="chapter">
+                  <ul class="chapter ps-sm-3 ps-4">
                     <li class="chapter-isi">
                       <div class="d-flex justify-content-between">
                         <button>Chapter 62</button>
@@ -702,19 +735,28 @@
                         <p class="update d-inline text-end">Mar 20, 2023</p>
                       </div>
                     </li>
+                    <li class="chapter-isi d-sm-none">
+                      <div class="d-flex justify-content-between">
+                        <button>Chapter 61</button>
+                        <p class="update d-inline text-end">Mar 20, 2023</p>
+                      </div>
+                    </li>
                   </ul>
                 </div>
               </div>
-              <div class="komik card">
-                <img src="assets/komik/COVER-VOLUME-8-scaled.jpg" alt="" />
-                <div class="card-inside">
-                  <button class="category-button-sm btn-manga">MANGA</button>
+              <div class="d-flex d-sm-block col-sm ps-sm-3 pe-sm-3 mb-3">
+                <div class="card col-4 col-sm-12">
+                  <img src="assets/komik/COVER-VOLUME-8-scaled.jpg" alt="" />
+                  <div class="card-inside">
+                    <button class="category-button-sm btn-manga">MANGA</button>
+                  </div>
                 </div>
+
                 <div class="card-body mt-2">
-                  <div class="judul d-flex">
+                  <div class="judul justify-content-start justify-content-sm-center p-3">
                     <h5>Juujika No Rokunin</h5>
                   </div>
-                  <ul class="chapter">
+                  <ul class="chapter ps-sm-3 ps-4">
                     <li class="chapter-isi">
                       <div class="d-flex justify-content-between">
                         <button>Chapter 122</button>
@@ -722,6 +764,12 @@
                       </div>
                     </li>
                     <li class="chapter-isi">
+                      <div class="d-flex justify-content-between">
+                        <button>Chapter 121</button>
+                        <p class="update d-inline text-end">Mar 5, 2023</p>
+                      </div>
+                    </li>
+                    <li class="chapter-isi d-sm-none">
                       <div class="d-flex justify-content-between">
                         <button>Chapter 121</button>
                         <p class="update d-inline text-end">Mar 5, 2023</p>
