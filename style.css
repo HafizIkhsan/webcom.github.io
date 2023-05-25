@@ -317,7 +317,7 @@ img.icon-nav {
   margin: 0;
 }
 
-.favorite img {
+.favorite .card img {
   max-height: 252px;
   border-radius: 16px;
 }
