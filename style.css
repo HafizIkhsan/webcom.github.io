@@ -29,17 +29,20 @@ img.foto-profile {
 
 a strong {
   text-decoration: none;
-  color: black;
 }
 
 p {
-  color: black;
   line-height: 14px;
   letter-spacing: 0.04em;
 }
 
 p.menu {
   display: contents;
+  color: var(--bs-bg-color);
+}
+
+.nav-link {
+  color: var(--bs-emphasis-color);
 }
 
 img.icon-nav {
@@ -379,7 +382,7 @@ li.chapter-isi::marker {
 }
 
 .right-nav div.input-group-text {
-  background-color: white;
+  background-color: var(--bs-bg-color);
   padding-right: 0px;
 }
 
@@ -404,14 +407,15 @@ li.chapter-isi::marker {
 
 .popular {
   padding: 24px 16px 24px 16px;
-  background-color: #f8f8f8;
+  background-color: var(--bs-tertiary-bg);
   margin-top: 24px;
   border-radius: 16px;
 }
 
 .popular li {
   padding: 0;
-  background-color: #f8f8f8;
+  background-color: var(--bs-tertiary-bg);
+  color: var(--bs-bg-color, inherit);
   border: 0;
   margin-bottom: 16px;
 }
