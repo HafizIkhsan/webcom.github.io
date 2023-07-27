@@ -4,10 +4,6 @@ body {
   font: 14px/18px raleway, sans-serif;
 }
 
-.profile {
-  margin-bottom: 159px;
-}
-
 .mobile-profile {
   width: 32px;
   height: 32px;
@@ -52,7 +48,7 @@ img.icon-nav {
 
 .navs-left {
   box-sizing: border-box;
-  padding: 32px 16px 0px 16px;
+  padding: 32px 16px 16px 16px;
 }
 
 .navs-menu {
@@ -278,6 +274,10 @@ img.icon-nav {
   background-color: #2fcb16 !important;
 }
 
+.btn-chapter:hover {
+  background-color: #9593ff !important;
+}
+
 .gradient {
   bottom: 0;
   width: 100%;
@@ -430,4 +430,10 @@ li.chapter-isi::marker {
 
 .popular .teks p {
   margin-bottom: 0px;
+}
+
+/* switch */
+.form-check-input {
+  width: 122px !important;
+  height: 44px !important;
 }
