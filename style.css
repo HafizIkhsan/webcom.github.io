@@ -381,11 +381,6 @@ li.chapter-isi::marker {
   padding: 16px;
 }
 
-.right-nav div.input-group-text {
-  background-color: var(--bs-bg-color);
-  padding-right: 0px;
-}
-
 .right-nav .card {
   border-radius: 16px;
 }
