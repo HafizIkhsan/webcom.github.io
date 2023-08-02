@@ -444,39 +444,35 @@ li.chapter-isi::marker {
   border-color: #090e3a;
 }
 
-.form-check-input::after {
+.form-check-input:not(:checked):before {
   content: url(assets/icon/BintangKecil.svg);
   position: absolute;
   top: 25%;
   right: 20px;
-  z-index: -1;
 }
 
-.form-check-input::before {
+.form-check-input:checked::after {
   content: url(assets/icon/BulanKecil.svg);
   position: absolute;
   top: 25%;
   left: 20px;
-  z-index: -1;
 }
 
 .form-switch .form-check-input {
-  --bs-form-switch-bg: url(assets/icon/sun.svg);
-  background-image: var(--bs-form-switch-bg);
+  background-image: url(assets/icon/sun.svg);
   transition: background 0.3s ease-in;
   background-size: 20%;
   background-position: 10%;
   cursor: pointer;
-  z-index: 1;
 }
 
 .form-switch .form-check-input:focus {
-  --bs-form-switch-bg: url(assets/icon/sun.svg);
-  background-image: var(--bs-form-switch-bg);
+  background-image: url(assets/icon/sun.svg);
   background-size: 20%;
 }
 .form-switch .form-check-input:checked {
   background-image: url(assets/icon/moon.svg);
+  /* content: url(assets/icon/BintangKecil.svg); */
   background-size: 20%;
   background-position: 90%;
 }
