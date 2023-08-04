@@ -424,6 +424,24 @@ li.chapter-isi::marker {
   margin-bottom: 0px;
 }
 
+/* Menu Left Icon */
+
+#home {
+  fill: var(--bs-body-color);
+}
+
+#Ongoing {
+  fill: var(--bs-body-color);
+}
+
+#heart {
+  stroke: var(--bs-body-color);
+}
+
+#bell {
+  stroke: var(--bs-body-color);
+}
+
 /* switch */
 
 .form-check-input {
@@ -472,7 +490,6 @@ li.chapter-isi::marker {
 }
 .form-switch .form-check-input:checked {
   background-image: url(assets/icon/moon.svg);
-  /* content: url(assets/icon/BintangKecil.svg); */
   background-size: 20%;
   background-position: 90%;
 }
